@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4h7psqvhbio%p17a1^%p9tr_j#50!)-=ozvw-a^1541*my-yut'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://lit-ocean-33218.herokuapp.com/']
+ALLOWED_HOSTS = ['https://lit-ocean-33218.herokuapp.com/','localhost','kbible.pythonanywhere.com']
 
 
 # Application definition
